@@ -15,7 +15,7 @@ h1{
   line-height: 1,8;
 }
 h2, h3 {
-  color: #ff70a6;
+  color: rgba(255, 112, 166, 0.5);
   font-family: "Poppins", serif;
   font-size: 20px;
   line-height: 1,8;
@@ -33,7 +33,7 @@ a:hover {
 }
 
 .container {
-  width: 100%;
+  width: 50%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -41,17 +41,17 @@ a:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 .card {
-  background-color: #cdb4db;
-  border: 30px;
-  border-radius: 7px;
+  background-color: rgba(205, 180, 219, 0.6);
+  border: 50px;
+  border-radius: 100% 0% 100% 0% / 22% 74% 26% 78%;
   box-shadow: 0 10px 20px rgba(0,0,0,.1);
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   margin: 20px auto;
 }
 
 .img-circle {
-  border-radius: 80px;
+  border-radius: 57% 43% 47% 53% / 20% 46% 54% 80%;
   width: 200px;
   height: 200px;
 }
@@ -60,7 +60,8 @@ a:hover {
   width: auto;
   height: 60px;
   max-width: 200px;
-  font-size: 22px;
+  font-size: 27px;
+  color: #ff4d6d;
 }
 
 .button{

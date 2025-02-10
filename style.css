@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #ffcfd2;
+  color: #14213d;
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1{
+  color: #ff70a6;
+  font-family: "Poppins", serif;
+  font-size: 32px;
+  line-height: 1,8;
+}
+h2, h3 {
+  color: #ff70a6;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  line-height: 1,8;
+}
+
+a {
+  color: #001d3d;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.card {
+  background-color: #cdb4db;
+  border: 30px;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);
+  padding: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.img-circle {
+  border-radius: 80px;
+  width: 200px;
+  height: 200px;
+}
+
+.logo{
+  width: auto;
+  height: 60px;
+  max-width: 200px;
+  font-size: 22px;
+}
+
+.button{
+  border:1px #ff70a6;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #ff70a6;
+  color: #f3d5b5;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button:hover{
+  background-color: #ffcad4;
+  color: #ff70a6;
+  transition: transform 0.9s ease-in-out;
+}
+
+.delete-padding{
+  padding: 0px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
